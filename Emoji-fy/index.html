@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+</head>
+<body>
+    <h2 id="header">Emoji-fy?</h2>
+    <div id="container">
+        <form name="myForm" id="form">
+            <label for="textarea">Enter a paragraph. Emoji-fy replaces all occurrences of '!' and '?' with emoji.</label><br>
+            <textarea name="textarea" id="textarea" rows="10" required></textarea>
+            <span>
+                <input type="reset" value="Clear" id="clearBtn">
+                <input type="button" id="replaceBtn" value="Emoji-fy">
+                <input type="button" id="reloadBtn" value="Reload">
+            </span>
+        </form>
+        <span></span>
+    </div>  
+    <script src="emojify.js"></script>
+</body>
+</html>

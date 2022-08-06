@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&display=swap');
+*{
+    font-family: Quicksand;
+    min-width: 510px;
+    overflow: hidden;
+}
+#text{
+    text-align: justify;
+}
+#replaceBtn{
+    background-color: #615ac5;
+    color: #FFF;
+    min-width: 33.4%;
+    height: 30px;
+    font-size: 17px;
+    color:rgb(230, 236, 168);
+}
+#clearBtn{
+    background-color: #615ac5;
+    color: #FFF;
+    min-width: 33%;
+    height: 30px;
+    font-size: 17px;
+    color:rgb(230, 236, 168);
+}
+#reloadBtn{
+    background-color: #615ac5;
+    color: #FFF;
+    min-width: 33%;
+    height: 30px;
+    font-size: 17px;
+    color:rgb(230, 236, 168);
+}
+#newText{
+    text-align: justify;
+}
+#textarea{
+    background-color: rgb(230, 236, 168);
+    margin: 5px 5px 5px 1px;
+    min-width: 100%;
+}
+#newP{
+    border: 1px solid #615ac5;
+    padding: 5px;
+}

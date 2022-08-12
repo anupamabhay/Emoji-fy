@@ -3,3 +3,6 @@
 * Takes user input 
 * Replaces all occurrences of '!' and '?' with corresponding emojis
 * Bug - Lets user submit whitespaces as input. (Too lazy to fix 😪)
+
+## Output
+![image](https://user-images.githubusercontent.com/24754580/184433199-1f6925e4-24fb-4fd4-92e0-3b9c52d9bcb3.png)

@@ -12,7 +12,7 @@ const switchero = (str) => {
 }
 //event listener for emoji-fy button
 emojifyBtn.addEventListener('click', ()=>{
-    if(textarea.value != ""){
+    if(textarea.value !== "" || textarea.value !== null){
         strArr = text.value.trim();
         let newStr = switchero(strArr);
         let newP = document.createElement('p');
